@@ -1,7 +1,7 @@
 <?php 
 
-$arr = ["name" => "Marcelo", "age" => "39"];
-$person = (object) $arr;
+$arrAssoc = ["name" => "Marcelo", "age" => "39"];
+$person = (object) $arrAssoc;
 var_dump($person);
 
 ?>
